@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
-{% switch \$${1:variable} %}
-    {% case ${2:case_name} %}
+{switch \$${1:variable}}
+    {case ${2:case_name}}
         $0
-        ${3:\{% break %\}}
-    ${4:\{% default %\}}
-{% /switch %}
+        ${3:\{break\}}
+    ${4:\{default\}}
+{/switch}
 ]]></content>
     <tabTrigger>switch</tabTrigger>
     <scope>text.html.smarty,source.smarty</scope>

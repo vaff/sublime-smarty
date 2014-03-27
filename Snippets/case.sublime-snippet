@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-{% case ${1:case_name} %}
+{case ${1:case_name}}
     $0
-    ${2:\{% break %\}}
+    ${2:\{ break \}}
 ]]></content>
     <tabTrigger>case</tabTrigger>
     <scope>text.html.smarty,source.smarty</scope>
